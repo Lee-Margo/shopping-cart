@@ -12,15 +12,15 @@
         <div class="text-3xl font-bold mb-2">購買確認及填寫資訊</div>
         <div class="product border-b">
             <table class="align-middle">
-                <thead >
-                    <tr class="border-t border-b border-slate-200 grid grid-cols-5">
+                <thead class="lg:invisible">
+                    <tr class="border-t border-slate-200 grid grid-cols-5">
                         <th>商品圖片</th>
                         <th>商品名稱</th>
                         <th>價錢</th>
                         <th>數量</th>
                     </tr>
                 </thead>
-                <tbody class="align-middle">
+                <tbody class="align-middle border-t">
                     <tr class="grid grid-cols-5 py-2">
                         <td><img class="w-full" src="../assets/img/300x300.png" alt=""></td>
                         <td class="self-center text-center">Bytecard</td>
@@ -70,8 +70,10 @@
             <div class="float-end text-2xl font-bold">商品數量: 0</div>
             <div class="clear-end float-end text-2xl font-bold mb-4">商品總金額: $0</div>
             <div class="clear-end flex justify-between">
-                <button class="bg-[#8c5046] text-white py-1 px-4 rounded-md">回上頁繼續購買</button>               
-                <button class="bg-[#50468c] text-white py-1 px-4 rounded-md">確認購買</button> 
+                <button class="bg-[#8c5046] text-white py-1 px-4 rounded-md">回上頁繼續購買</button>
+                <RouterLink class="mr-4 text-white" to="/CompleteShopping">
+                    <button class="bg-[#50468c] text-white py-1 px-4 rounded-md">確認購買</button> 
+                </RouterLink>               
             </div>
         </div>      
     </div>

@@ -38,7 +38,7 @@ export default {
     </div>
     <div v-else  class="bottom clear-end gap-5 flex flex-wrap justify-center ">       
       <table class="align-middle">
-        <thead >
+        <thead>
           <tr class="border-t border-b border-slate-200 grid grid-cols-6">
             <th>商品圖片</th>
             <th>商品名稱</th>

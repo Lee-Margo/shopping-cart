@@ -3,7 +3,7 @@
 
 <template>
     <tbody>
-        <tr class="grid grid-cols-6 min-h-[80px] gap-x-3 md:gap-x-1 lg:first:border-t lg:!py-3">
+        <tr class="grid grid-cols-6 min-h-[80px] gap-x-3 md:gap-x-1 lg:first:border-b lg:!py-3">
             <td><img class="w-full" src="../assets/img/300x300.png" alt=""></td>
             <td class="self-center text-center">Bytecard</td>
             <td class="self-center tracking-tight leading-7 flex-wrap">

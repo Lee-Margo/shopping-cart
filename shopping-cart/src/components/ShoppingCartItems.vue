@@ -9,9 +9,9 @@
         <td class="self-center text-center">$954</td>
         <td class="self-center">
             <section class="mb-3">
-                <button class="border w-[30px] h-[35px] rounded-l-3xl">-</button>
-                <input type="number" min="1" class="h-[35px] w-24 text-center border-t border-b" >
-                <button class="border w-[30px] h-[35px] rounded-r-3xl">+</button>
+                <button class="border w-1/6 h-[34px] rounded-l-3xl">-</button>
+                <input type="number" min="1" class="h-[35px] w-1/3 text-center border-t border-b" >
+                <button class="border w-1/6 h-[34px] rounded-r-3xl">+</button>
             </section>
         </td>
     </tr>
