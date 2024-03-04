@@ -10,7 +10,7 @@
 <template>
     <div class="m-5">
         <div class="text-3xl font-bold">購買確認及填寫資訊</div>
-        <div class="product">
+        <div class="product border-b">
             <table class="align-middle">
                 <thead >
                     <tr class="border-t border-b border-slate-200 grid grid-cols-5">
@@ -29,6 +29,7 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="text-center">1</div>
         </div>
         <form class="grid grid-rows-7 m-4">
             <label for="name" class="form">姓名</label>

@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <div class="mx-5">
+    <div class="m-5">
         <div class="top">
             <span class="text-3xl font-bold">購物車確認</span>
         </div>
@@ -30,7 +30,7 @@
         </div>
         <div class="bottom">
             <div class="float-end text-2xl font-bold">商品數量: 0</div>
-            <div class="clear-end float-end text-2xl font-bold">商品總金額: $0</div>
+            <div class="clear-end float-end text-2xl font-bold mb-4">商品總金額: $0</div>
             <div class="clear-end flex justify-between">
                 <button class="bg-[#8c5046] text-white py-1 px-4 rounded-md">回上頁繼續購買</button>
 
