@@ -64,7 +64,7 @@ export default {
             </table>
         </div>
     </div>
-    <button type="button" class="w-full text-center bg-[#50468C] text-white rounded-md">回首頁</button>
+    <button type="button" class="mb-10 w-full text-center bg-[#50468C] text-white rounded-md">回首頁</button>
 
 
 </template>

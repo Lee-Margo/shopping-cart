@@ -9,7 +9,7 @@
 
 <template>
     <div class="m-5">
-        <div class="text-3xl font-bold">購買確認及填寫資訊</div>
+        <div class="text-3xl font-bold mb-2">購買確認及填寫資訊</div>
         <div class="product border-b">
             <table class="align-middle">
                 <thead >
@@ -20,7 +20,7 @@
                         <th>數量</th>
                     </tr>
                 </thead>
-                <tbody class="border-b align-middle">
+                <tbody class="align-middle">
                     <tr class="grid grid-cols-5 py-2">
                         <td><img class="w-full" src="../assets/img/300x300.png" alt=""></td>
                         <td class="self-center text-center">Bytecard</td>
@@ -29,7 +29,7 @@
                     </tr>
                 </tbody>
             </table>
-            <div class="text-center">1</div>
+            <div class="text-center mb-2">1</div>
         </div>
         <form class="grid grid-rows-7 m-4">
             <label for="name" class="form">姓名</label>

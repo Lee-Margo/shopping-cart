@@ -28,7 +28,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="bottom">
+        <div class="bottom mt-4">
             <div class="float-end text-2xl font-bold">商品數量: 0</div>
             <div class="clear-end float-end text-2xl font-bold mb-4">商品總金額: $0</div>
             <div class="clear-end flex justify-between">
